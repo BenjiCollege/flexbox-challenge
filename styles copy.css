@@ -87,10 +87,44 @@ p {
   text-align: justify;
 }
 
-div.panel-1 {
+#container {
   border: solid black 2px;
-  background-color: red;
-  width: 90%;
-  height: 500px;
+  background-color: blue;
+  width: 13%;
+  height: 100px;
+  color: white;
+  margin: 20px;
+}
+#start {
+  border: solid black 2px;
+  background-color: blue;
+  width: 13%;
+  height: 100px;
+  color: white;
+  margin: 20px;
+}
+#end {
+  border: solid black 2px;
+  background-color: blue;
+  width: 13%;
+  height: 100px;
+  color: white;
+  margin: 20px;
+}
 
+.box, #container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.box, #end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.box, #start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
