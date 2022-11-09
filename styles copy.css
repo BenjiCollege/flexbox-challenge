@@ -72,14 +72,6 @@ main {
   background-color: gainsboro;
 }
 
-ul {
-  margin-left: 30px;
-}
-
-li {
-  margin: 15px auto;
-}
-
 #right-hand-panel {
   width: 25%;
   padding: 18px;
@@ -93,4 +85,12 @@ li {
 
 p {
   text-align: justify;
+}
+
+div.panel-1 {
+  border: solid black 2px;
+  background-color: red;
+  width: 90%;
+  height: 500px;
+
 }
